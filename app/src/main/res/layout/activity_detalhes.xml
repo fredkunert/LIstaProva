@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".DetalhesActivity">
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/txtTelefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefone"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/txtLinkedIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LinkedIn"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnLigar"
+        android:layout_width="wrap_content"
+        android:layout_height="77dp"
+        android:layout_marginBottom="10dp"
+        android:text="Ligar"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/btnEnviarEmail"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Enviar E-mail"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/btnAbrirLinkedIn"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Abrir LinkedIn"
+        android:backgroundTint="@color/black"/>
+</LinearLayout>
